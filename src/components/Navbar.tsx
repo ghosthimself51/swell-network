@@ -79,7 +79,7 @@ export default function Navbar() {
     if(chainId !== 1) {
       switchChain({ chainId: 1 })
     }
-  }, [isConnected])
+  }, [isConnected, chainId])
 
  
   

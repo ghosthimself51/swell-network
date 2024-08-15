@@ -64,7 +64,7 @@ export default function CModal() {
                     <Text mt={["0", "4"]} mb="3" textAlign={["center", "left"]}>{screen === 2 ? "Connection Successful!" : screen === 1 ? "Approve Connection" : "Connect your wallet"}</Text>
                     <Text fontSize=".875rem" textAlign={["center", "left"]}>{screen === 2 ? "Your wallet is now connected to Swell" : screen === 1 ? "Please approve the connection in your wallet and authorize access to continue." : "Connecting your wallet is like “logging in” to Web3. Select your wallet from the options to get started."}</Text>
 
-                    <Flex mt="5" padding="0.25rem 0.5rem 0.25rem 0.75rem" color="#A4ABF1" fontSize=".875rem" cursor="pointer" align="center" justify={["center", "flex-start"]} _hover={{ textDecoration: "underline" }} transition="300ms ease-in-out">I don't have a wallet <Flex w="20px" h="20px" ml="1">{InfoIcon2}</Flex></Flex>
+                    <Flex mt="5" padding="0.25rem 0.5rem 0.25rem 0.75rem" color="#A4ABF1" fontSize=".875rem" cursor="pointer" align="center" justify={["center", "flex-start"]} _hover={{ textDecoration: "underline" }} transition="300ms ease-in-out">I don&apos;t have a wallet <Flex w="20px" h="20px" ml="1">{InfoIcon2}</Flex></Flex>
 
                     <Flex mt="auto"></Flex>
 
@@ -112,7 +112,7 @@ export default function CModal() {
 
                     <Flex w="100%" mt={["5", "12"]} bg="#3B46B7" borderRadius="12px" justify="space-between" padding="0.75rem">
                       <Flex direction="column" fontSize=".75rem">
-                        <Text lineHeight="16px">Why don't I see my wallet?</Text>
+                        <Text lineHeight="16px">Why don&apos;t I see my wallet?</Text>
                         <Text color="#A4ABF1" cursor="pointer" _hover={{ textDecoration: "underline" }} onClick={() => {
                           window.open("https://www.blocknative.com/blog/metamask-wont-connect-web3-wallet-troubleshooting", "_BLANK")
                         }}>Click here to learn more</Text>

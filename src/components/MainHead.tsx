@@ -21,7 +21,7 @@ export default function MainHead() {
             <Text fontSize="14px" letterSpacing="-0.03em" fontWeight="500">{isTheme === 0 ? "Stake" : "Restake"}</Text>
             {
                 isTheme === 1 &&
-                <Image src={"/egn.webp"} w="62px" />
+                <Image src={"/egn.webp"} w="62px" alt="img" />
             }
         </Flex>
 
